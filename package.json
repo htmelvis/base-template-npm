@@ -11,7 +11,8 @@
     "server": "squarespace runserver",
     "authserver": "squarespace runserver --auth",
     "start": "squarespace setup && (npm run watch & npm run server)",
-    "deploy": "squarespace setup && squarespace deploy"
+    "deploy": "squarespace setup && squarespace deploy",
+    "setup": "squarespace setup"
   },
   "repository": {
     "type": "git",
